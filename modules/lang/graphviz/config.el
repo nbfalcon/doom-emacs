@@ -23,4 +23,4 @@
   (add-to-list 'flycheck-checkers 'graphviz-dot))
 
 (after! org-src
-  (add-to-list 'org-src-lang-modes ("dot" . graphviz-dot-mode)))
+  (add-to-list 'org-src-lang-modes '("dot" . graphviz-dot-mode)))
